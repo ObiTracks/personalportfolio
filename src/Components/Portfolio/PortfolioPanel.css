@@ -1,0 +1,51 @@
+.row{
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7%;
+    background: rgb(255, 255, 255);
+    /* border: solid red; */
+  }
+.column{
+    display: flex;
+    justify-content: center;
+    flex: 50%;
+    flex-wrap: wrap;
+    max-width: auto;
+    /* border: solid rgb(0, 17, 255) 2px; */
+}
+.previewCard{
+    width: 27vw;
+    height: 27vw;
+    vertical-align: middle;
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(207, 207, 207) 0 0 20px;
+    margin: 7%;
+}
+/* Neomorphism portfolio buttons
+.card{
+    width: 27vw;
+    height: 27vw;
+    vertical-align: middle;
+    background: rgb(233, 233, 233);
+    border-radius: 12px;
+    box-shadow: 
+    rgb(233, 233, 233) 4px -4px 5px,
+    rgba(245, 245, 245, 0.747) 12px -12px 6px 3px,
+
+    rgb(233, 233, 233) -0px 0px 6px 6px,
+    rgba(146, 146, 146, 0.911) -4px 4px 9px 7px;
+    margin: 4%;
+}
+.card:hover{ 
+    box-shadow: 
+    inset rgb(233, 233, 233) -0px 0px 10px 6px,
+    inset rgba(146, 146, 146, 0.911) -4px 4px 14px 7px,
+
+    inset rgb(233, 233, 233) 4px -4px 5px,
+    inset rgba(245, 245, 245, 0.747) 12px -12px 6px 3px;
+} */

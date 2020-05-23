@@ -1,0 +1,41 @@
+.Instagram_Panel{
+    float: left;
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2.2rem;
+    border: solid black 2px;
+  }
+  .Instagram_Panel span{
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+  }
+  .Instagram_Panel div{
+    position: relative;
+    width: 80%;
+    height: 12rem;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black 1px;
+  }
+  .Instagram_Panel div img{
+    width: 20%;
+    height: 100%;
+    border: solid black 1px;
+
+  }
+  /* .Instagram_Panel div{
+    width: 80%;
+    height: 194px;
+    background: url('../../static/ig_placeholder.JPG');
+    background-size: contain;
+    background-repeat: no-repeat;
+  } */

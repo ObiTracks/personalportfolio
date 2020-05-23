@@ -1,0 +1,74 @@
+.Nav{
+  position: fixed;
+  float: left;
+  width: 22%;
+  height: 100%;
+  align-items: center;
+  background: #F5F5F5;
+  padding: 2.5rem 2rem 2rem 2rem;
+}
+.Nav img{
+  width: 150px;
+  height: 150px;
+  background-position: center;
+  background-size: 50px 50px;
+  /* border: solid black 1px; */
+  border-radius: 50%;
+  box-shadow: rgb(107, 107, 107) 0px 0 8px;
+}
+.Nav h1{
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 10px 0 2.3rem 0;
+}
+.Nav div{
+  width: 100%;
+  height: 44%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Nav div li{
+  height: 25px;
+  width: fit-content;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  margin: 8px 0 8px 0;
+}
+.Nav div li a{
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 29px;
+  text-decoration: none;
+  color: rgb(109, 109, 109);
+}
+.Nav div li:hover a{
+  cursor: pointer;
+  color: black;
+  border-bottom: solid black 3px;
+}
+.Nav span{
+  margin-top: 3rem;
+}
+.Nav span img{
+    width: 25px;
+    height: auto;
+    margin: 0 3px 0 3px;
+    border-radius: 0;
+    box-shadow: none;
+    stroke-opacity: 0none;
+    margin: 0px .5rem 0 .5rem;
+}
+.Nav p{
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10%;
+  color: grey;
+}
