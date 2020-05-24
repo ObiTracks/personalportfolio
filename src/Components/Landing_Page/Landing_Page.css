@@ -16,10 +16,10 @@
   position: relative;
   width: 50%;
   height: 100%;
-  background: url("../../static/img_landingbg1.jpg");
+  /* background: url("../../static/img_landingbg1.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
 .Landing_Page_Right {
   position: relative;

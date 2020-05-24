@@ -8,7 +8,7 @@ function Portfolio() {
       {/* PROJECTS SECTION */}
       <div className="Proj_Content">
         <div className="Proj_Content_Column">
-          <Card />
+          <Card id="" proj-1 />
         </div>
 
         <div className="Proj_Content_Column"></div>

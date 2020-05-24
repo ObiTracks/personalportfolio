@@ -30,12 +30,12 @@ function App() {
           <Route path="/portfolio" exact component={Portfolio} />
           <Route path="/reddit" exact component={RedditPosts} />
 
-          <Switch>
+          {/* <Switch>
             <Route path="/spotify" exact component={Music} />
             <Route path="/" component={Music} />
           </Switch>
           <Route path="/" exact component={Contact} />
-          <Footer />
+          <Footer /> */}
         </div>
       </div>
     </Router>
