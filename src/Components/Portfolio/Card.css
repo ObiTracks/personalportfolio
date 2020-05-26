@@ -7,7 +7,6 @@
   height: 70vh;
   width: 100%;
   display: flex;
-  /* flex-direction: row; */
   background: rgba(255, 255, 255, 0.224);
   border-radius: 1rem;
   overflow: hidden;
@@ -20,9 +19,15 @@
 .portfolio-card:hover {
   position: relative;
   height: 70vh;
-  width: 200%;
+  width: 212%;
 	transition: .5s;
 	z-index: 100;
+}
+#Card_right{
+  flex-direction: row-reverse;
+}
+#Card_left{
+  flex-direction: row;
 }
 .portfolio-card > div {
   position: relative;
@@ -117,7 +122,7 @@
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 6%;
+  padding: 4%;
   background: rgb(25, 25, 25);
   opacity: 0;
 	transition: ease 0.3s;
@@ -128,7 +133,6 @@
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 6%;
   background: rgb(25, 25, 25);
   opacity: 1;
   transition: ease 0.5s;
@@ -163,17 +167,17 @@
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
 }
 .right-side div p {
   width: 100%;
   height: 220px;
+	max-height: 90%;
   overflow-y: auto;
-  /* max-height: 60%; */
   /* overflow: scroll; */
   font-family: "Montserrat", sans-serif;
   line-height: 1.7rem;
-  color: rgb(208, 208, 208);
+	color: rgb(208, 208, 208);
 }
 
 /* CUSTOMIZED SCROLL BAR*/
@@ -195,22 +199,48 @@
   background: #b30000; 
 }
 .right-side .links {
-  /* width: 100%; */
-  height: auto;
+	display: flex;
+  height: 15%;
   background: rgb(135, 135, 135);
-  border-radius: 1rem;
-  box-shadow: rgb(61, 61, 61) 0 5px 8px;
-  background: linear-gradient(to right, #ff00cc, #333399);
+  border-radius: 0.2rem;
+	background: linear-gradient(to right, #ff00cc, #333399);
+	overflow: hidden;
 } 
 .links a {
+	height: 100%;
+	flex: 50%;
   display: flex;
+	justify-content: center;
+	align-items: center;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  flex-direction: row;
-  color: rgb(0, 0, 0);
-  text-transform: lowercase;
+	flex-direction: row;
+	text-decoration: none;
+  color: rgb(255, 255, 255);
+	text-transform: lowercase;
 }
-
+#demo-link{
+	background: linear-gradient(to right, #fed800, #fe8c00, #f83600);
+	background-size: 200% 100%;
+	background-position: 99% 99%;
+	transition: ease 0.4s;
+}
+#demo-link:hover{
+	background-position: left center;
+	transition: ease 0.6s;
+	cursor: pointer;
+}
+#github-link{
+	background: linear-gradient(to right, #c0d5e4, #2c3e50);
+	background-size: 300% 100%;
+	background-position: 99% 99%;
+	transition: ease 0.4s;
+}
+#github-link:hover{
+	background-position: left center;
+	transition: ease 0.4s;
+	cursor: pointer;
+}
 #proj-1 {
   background: url({});
 }

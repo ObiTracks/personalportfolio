@@ -35,11 +35,12 @@ function Card(props) {
           </div>
 
           <div className="links">
-            <a href={props.github_link} class="Proj_card_half_right_stats_btn">
+            <a href={props.github_link} class="Proj_card_half_right_stats_btn" id="github-link">
               Github
             </a>
-            <a href={props.demo_link} class="Proj_card_half_right_stats_btn">
-              Demo <img src={goto_btn} />
+            <a href={props.demo_link} class="Proj_card_half_right_stats_btn" id="demo-link">
+              Demo 
+              {/* <img src={goto_btn} /> */}
             </a>
           </div>
         </div>
