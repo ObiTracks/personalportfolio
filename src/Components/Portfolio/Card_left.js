@@ -1,7 +1,8 @@
 import React from "react";
-import "./Cardcopy.css";
+import "./Card.css";
+import "./Card_right.css";
 import goto_btn from "../../static/icon_continue.svg";
-import Projects from "../Portfolio/projects.json";
+import Projects from "./projects.json";
 
 // var ProjectData = JSON.parse(Projects);
 function Card(props) {
@@ -11,7 +12,7 @@ function Card(props) {
   )});
   
   return (
-      <div className="portfolio-card">
+      <div className="portfolio-card" id="Card_left">
         <h1 className="main-title">{props.name}</h1>
         <div className="left-side">
           <div className="gradient-title">{props.name}</div>
