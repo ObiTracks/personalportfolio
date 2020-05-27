@@ -1,19 +1,21 @@
 import React from "react";
 import "./Portfolio.css";
-import Card_left from "./Card_left";
-import Card_right from "./Card_right";
-import Projects from "../Portfolio/projects.json";
+import Card_left from "./Card_left.js";
+import Card_right from "./Card_right.js";
+import Projects_Left from "../Portfolio/projects_leftcol.json";
+import Projects_Right from "../Portfolio/projects_rightcol.json";
 
 function Portfolio() {
+  
   return (
     <div className="Proj_Parent">
       {/* PROJECTS SECTION */}
       <div className="Proj_Content">
         <div className="Column" id="left-column">
-          {Projects.map((ProjectData, index) => {
+          {Projects_Left.map((ProjectData, index) => {
             return (
               <Card_left
-              proj_image={ProjectData.proj_image}
+                proj_style={ProjectData.proj_style}
                 name={ProjectData.name}
                 tags={ProjectData.tags}
                 date={ProjectData.date}
@@ -25,7 +27,7 @@ function Portfolio() {
         </div>
 
         <div className="Column" id="right-column">
-          {Projects.map((ProjectData, index) => {
+          {Projects_Right.map((ProjectData, index) => {
               return (
                 <Card_right
                 proj_image={ProjectData.proj_image}

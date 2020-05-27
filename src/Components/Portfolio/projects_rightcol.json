@@ -1,0 +1,19 @@
+[
+  {
+    "name": "JS Form Demo",
+    "proj_style": {
+      "backgroundColor": "#000000"
+    },
+    "tags": [
+      "html",
+      "css",
+      "Python",
+      "Jinja2",
+      "Google App Engine"
+    ],
+    "date": "July 2019",
+    "text": "Coded this form using a little css and javascript. Small example of working with js forms",
+    
+    "github_link": "https://github.com/ObiTracks/personalportfolio"
+  }
+]
