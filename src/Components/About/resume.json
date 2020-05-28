@@ -1,0 +1,72 @@
+{
+  "jobs":[
+    
+    {
+      "date":"1/10/19",
+      "title": "Intern",
+      "company": "Apple",
+      "description" :"Lorem Ipsum"
+    },
+    {
+      "date":"1/10/19",
+      "title": "Intern",
+      "company": "Apple",
+      "description" :"Lorem Ipsum"
+    }
+  ],
+
+  "skills":[
+    {
+      "name":"Communication",
+      "level": ""
+    },
+    {
+      "name":"Leadership",
+      "level": ""
+    },
+    {
+      "name":"Leadership",
+      "level": ""
+    }
+  ],
+
+  "education":[
+    {
+      "name":"Wilfrid Laurier",
+      "degree":"BBA",
+      "date":"2019"
+    },
+    {
+      "name":"Aurora High",
+      "degree":"GED",
+      "date":"2016"
+    }
+  ],
+
+  "awards":[
+    {
+      "name":"Finalist",
+      "description":"Champion of the nba"
+    },
+    {
+      "name":"Finalist",
+      "description":"Champion of the nba"
+    }
+  ],
+  "activities":[
+    
+    {
+      "date":"1/10/19",
+      "title": "Business Develpment Executive",
+      "organization": "SOS",
+      "description" :"Lorem Ipsum"
+    },
+    {
+      "date":"1/10/19",
+      "title": "Hack the Valley",
+      "organization": "Participant",
+      "description" :"Lorem Ipsum"
+    }
+  ]
+  
+}

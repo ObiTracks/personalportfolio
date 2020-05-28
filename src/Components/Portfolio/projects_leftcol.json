@@ -14,7 +14,8 @@
     "date": "July 2019",
     "text": "Pass the Plate is a platform designed to help improve food sustainability by connecting grocery stores and resturants to soup kitchens, pantries and homes in need to provide them with surplus food that needlessly gets wasted and other food that has the same destiny if it isn't consumed the same day. I created it with a team while in Google's CSSI summer program google's CS summer program. We created it under 3 days after learning to use a python framework called Jinja2 which allows for database interactions. Check out the site and its code on github below ↓",
     
-    "github_link": "https://github.com/ObiTracks/personalportfolio"
+    "github_link": "https://github.com/ObiTracks/personalportfolio",
+    "demo_link":""
   },
   {
     "name": "Tic Tac Toe Python Game",
@@ -25,7 +26,8 @@
     "date": "July 2019",
     "text": "Try out this simple tic tac toe game I built using only pyhton. From scratch with no previous knowledge and only a bit of google to help out. Check out the code and see the demo below",
     
-    "github_link": "https://github.com/ObiTracks/personalportfolio"
+    "github_link": "https://github.com/ObiTracks/personalportfolio",
+    "demo_link": "https://trinket.io/python/f7ad7f9864?runOption=run"
   },
   {
     "name": "Python Turtle Art",
@@ -37,6 +39,7 @@
     "date": "November +",
     "text": "Try out this simple tic tac toe game I built using only pyhton. From scratch with no previous knowledge and only a bit of google to help out. Check out the code and see the demo below",
     
-    "github_link": "https://github.com/ObiTracks/personalportfolio"
+    "github_link": "https://github.com/ObiTracks/personalportfolio",
+    "demo_link": ""
   }
 ]

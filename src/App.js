@@ -13,6 +13,7 @@ import Portfolio from "./Components/Portfolio/Portfolio";
 import Music from "./Components/Music/Music";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
+import About from "./Components/About/About";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           </Switch>
 
           <Route path="/portfolio" exact component={Portfolio} />
+          <Route path="/about" exact component={About} />
           <Route path="/reddit" exact component={RedditPosts} />
 
           <Switch>

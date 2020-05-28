@@ -1,6 +1,10 @@
 .Nav{
   position: fixed;
   float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 22%;
   height: 100%;
   align-items: center;
@@ -54,17 +58,19 @@
   color: black;
   border-bottom: solid black 3px;
 }
-.Nav span{
+.Nav .links{
+  width: 10rem;
+  /* max-width: 20rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 3rem;
 }
-.Nav span img{
+.Nav .links img{
     width: 25px;
     height: auto;
-    margin: 0 3px 0 3px;
+    margin: 0;
     border-radius: 0;
-    box-shadow: none;
-    stroke-opacity: 0none;
-    margin: 0px .5rem 0 .5rem;
 }
 .Nav p{
   font-size: 12px;

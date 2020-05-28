@@ -19,8 +19,9 @@
   justify-content: center;
   align-items: center;
   background: radial-gradient(circle, rgba(141,186,255,1) 41%, rgba(173,70,252,1) 100%);
-  background-size: 150%;
-  background-position: 100% 0%;
+  background: url("../../static/img_music.jpg");
+  background-size: cover;
+  background-position: center;
   outline-offset: -10px;
 }
 .Music iframe{
@@ -35,19 +36,14 @@
   top: 30%;
   left: 0%;
   font-size: 8vw;
-  font-weight: 650;
-
-  
-  /* color: rgb(255, 210, 7); */
-  background: linear-gradient(319deg, rgba(255,0,48,1) 0%, rgba(253,152,45,1) 79%);
+  font-weight: 500;
+  color: white;
   text-align: center;
-  /* border-radius: 5rem; */
+  text-transform: lowercase;
   margin: 0;
   padding: 0;
   z-index: 0;
   transform: scaleY(0.9);
-  /* text-shadow: rgb(159, 0, 137) 0px 12px, rgb(144, 0, 124) 0px 24px, rgb(122, 0, 106) 0px 36px,rgb(100, 0, 87) 0px 48px 10px; */
-  /* line-height: 10rem; */
 }
 .Word_Pop p{
   width: 80%;
@@ -56,6 +52,7 @@
   font-weight: 600;
   line-height: 1.6rem;
   color: white;
+  color: black;
 }
 /* #word1{
 }

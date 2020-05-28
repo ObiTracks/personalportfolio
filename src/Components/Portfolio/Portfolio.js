@@ -21,6 +21,7 @@ function Portfolio() {
                 date={ProjectData.date}
                 text={ProjectData.text}
                 github_link={ProjectData.github_link}
+                demo_link={ProjectData.demo_link}
               />
             );
           })}

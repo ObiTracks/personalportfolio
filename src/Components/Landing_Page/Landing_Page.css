@@ -3,8 +3,7 @@
   background-color: #888d97;
   float: left;
   width: 100%;
-  height: auto;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: row;
   font-size: calc(10px + 2vmin);
