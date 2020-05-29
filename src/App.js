@@ -24,7 +24,7 @@ function App() {
           <Switch>
             <Route path="/" exact component={Landing_Page} />
             <Route path="/">
-              <NavSister />
+              {/* <NavSister /> */}
             </Route>
           </Switch>
 

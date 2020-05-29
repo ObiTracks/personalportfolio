@@ -4,10 +4,16 @@ import Card_left from "./Card_left.js";
 import Card_right from "./Card_right.js";
 import Projects_Left from "../Portfolio/projects_leftcol.json";
 import Projects_Right from "../Portfolio/projects_rightcol.json";
+import NavSister from "../../Components/Nav/NavSister/NavSister";
 
 function Portfolio() {
-  
+  let text = '{ "breadcrumb" : "Portfolio", "link":"link"}'
+  let Navigation = JSON.parse(text)
+  console.log(Navigation)
+
   return (
+    <div>
+    <NavSister breadcrumb={Navigation.breadcrumb} link={Navigation.link}/>
     <div className="Proj_Parent">
       {/* PROJECTS SECTION */}
       <div className="Proj_Content">
@@ -43,6 +49,8 @@ function Portfolio() {
         </div>
       </div>
     </div>
+  </div>
+  
   );
 }
 
