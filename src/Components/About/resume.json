@@ -1,71 +1,84 @@
 {
   "jobs":[
-    
     {
-      "date":"1/10/19",
-      "title": "Intern",
-      "company": "Apple",
-      "description" :"Lorem Ipsum"
+      "date":" July 2019 – August 2019",
+      "title": "CSSI Intern",
+      "company": "Google",
+      "description" :"- Selected as one of 30 students chosen to participate in Google’s highly selective summer program at the NYC headquarters to build and deploy a socially-oriented startup webapp using Google App Engine, while developing our skills in Python, JS, HTML/CSS and SQL"
     },
     {
-      "date":"1/10/19",
-      "title": "Intern",
-      "company": "Apple",
-      "description" :"Lorem Ipsum"
+      "date":"August 2019 – Sept 2019",
+      "title": "Clerical Intern",
+      "company": "Bellevue Hospital",
+      "description" :" -Assisted in various capacities in the human resources department performing tasks ranging from file management to working as an assistant to department leadership. - Ensured the success of two new employee orientations by single-handedly creating over 250 employee orientation folders as done through printing, sorting, assembling, and labelling. I served as the informational assistant at the orientations’ sign-in and information desk"
+    },
+    {
+      "date":"Sept 2017 – Jan 2018",
+      "title": "Co-op Intern",
+      "company": "Aurora Periodontal Center",
+      "description" :"- Observed and studied the daily practices of periodontists as they performed various dental operations ranging from implants to root canals. - assisted in medical procedures by using medical-grade sterile techniques to handle and provide surgical equipment for periodontists."
     }
   ],
 
   "skills":[
     {
       "name":"Communication",
-      "level": ""
+      "level": 5
     },
     {
       "name":"Leadership",
-      "level": ""
+      "level": 3
     },
     {
       "name":"Leadership",
-      "level": ""
+      "level": 6
     }
   ],
 
   "education":[
     {
-      "name":"Wilfrid Laurier",
-      "degree":"BBA",
-      "date":"2019"
+      "name":"Wilfrid Laurier University",
+      "degree":"Business Administration and Computer Science",
+      "date":"Sept 2019 – April 2023",
+      "location":"Waterloo, ON",
+      "gpa": "3.0+"
     },
     {
-      "name":"Aurora High",
-      "degree":"GED",
-      "date":"2016"
+      "name":"Blyth Academy",
+      "degree":"Highschool",
+      "date":"Sept 2018 – June 2019",
+      "location":"Thornhill, ON",
+      "gpa": "4.0"
+    },
+    {
+      "name":"Aurora Highschool",
+      "degree":"Highschool",
+      "date":"Sept 2018 – June 2019",
+      "location":"Aurora, ON",
+      "gpa": "3.86"
     }
+    
   ],
 
   "awards":[
     {
-      "name":"Finalist",
-      "description":"Champion of the nba"
-    },
-    {
-      "name":"Finalist",
-      "description":"Champion of the nba"
+      "name":"Lazaridis School of Business and Economics 1st Year HP Case Competition Finalist",
+      "description":"5th Place Finalist out of 48 semi-finalist teams in the Hewlett Packard Consulting Case Competition"
     }
   ],
   "activities":[
     
     {
-      "date":"1/10/19",
+      "date":"Jan 2018 - Current",
       "title": "Business Develpment Executive",
-      "organization": "SOS",
-      "description" :"Lorem Ipsum"
+      "organization": "Students Offering Support",
+      "description" :"- I am a business development executive of the Laurier Chapter at SOS, a student-run business that offers university crash courses with the social mission of donating the proceeds to fund educational development in South America. - I work to bring in new business opportunities for financial growth through sponsorships, partnerships, and fundraising etc."
     },
     {
-      "date":"1/10/19",
-      "title": "Hack the Valley",
+      "date":"Feb 2020",
+      "title": "Hack the Valley IV",
       "organization": "Participant",
-      "description" :"Lorem Ipsum"
+      "description" :"- Built a React webapp designed to bring short term housing and subletting listings from the web into one place using Python web-scraping."
     }
   ]
   

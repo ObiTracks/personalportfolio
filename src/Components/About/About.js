@@ -14,14 +14,46 @@ function About(props) {
   return (
     <div className="Parent">
       <div className="resume">
+
+
+        <span className="section">
+          <div className="education">
+            <div className="items" id="schools">
+              <h4>Education</h4>
+              {schools.map((school, index) => {
+                return (
+                  <div className="school">
+                    <p id="head">{school.name}</p>
+                    <p>{school.degree}</p>
+                    <p id="info">{school.date} | {school.gpa}</p>
+                  </div>
+                )
+              })}
+            </div>
+
+            <div className="items" id="awards">
+              <h4>Awards</h4>
+              {awards.map((award, index) => {
+                  return (
+                    <div className="award">
+                      <p className="award_title" id="head">{award.name}</p>
+                      <p id="description">{award.description}</p>
+                    </div>
+                  )
+                })}
+            </div>
+          </div>
+        </span>
+
+
         <span className="section" id="experience">
           <h4>Experience</h4>
           {jobs.map((job, index) => {
             return (
               <div className="job">
                 <div className="job_details">
-                  <p id="date">{job.date}</p>
                   <p id="company">{job.company}</p>
+                  <p id="date">{job.date}</p>
                 </div>
                 <div className="job_info">
                   <p id="title">{job.title}</p>
@@ -33,66 +65,47 @@ function About(props) {
           })}
         </span>
 
-        <span className="section" id="skills">
-          <h4>Skills</h4>
-          <div className="skills">
-          {skills.map((skill, index) => {
-            return (
-              <div className="skill">
-                <p>{skill.name}</p>
-                <div>{skill.level}</div>
-              </div>
-              );
-          })}
-          </div>
-        </span>
-
-        <span className="section" id="education-awards">
-          <div id="education">
-            {schools.map((school, index) => {
-              return (
-                <div>
-                  <p id="name">{school.name}</p>
-                  <p id="degree">{school.degree}</p>
-                  <p id="date">{school.date}</p>
-                </div>
-              )
-            })}
-          </div>
-
-          <div id="awards">
-            {awards.map((award, index) => {
-                return (
-                  <div>
-                    <p id="name">{award.name}</p>
-                    <p id="degree">{award.description}</p>
-                  </div>
-                )
-              })}
-          </div>
-        </span>
 
         <span className="section" id="activities">
+          <h4>Activities</h4>
           {activities.map((activity, index) => {
             return (
-              <div className="activities">
-                <div className="activity_details">
+              <div className="job">
+                <div className="job_details">
                   <p id="date">{activity.date}</p>
                   <p id="company">{activity.company}</p>
                 </div>
-                <div className="activity_details_info">
+                <div className="job_info">
                   <p id="title">{activity.title}</p>
                   <p id="description">{activity.description}</p>
                 </div>
               </div>
             );
           })}
-              
         </span>
 
-        <span className="section" id="awards-interests">
-          <div id="interests"></div>
-        </span>
+        {/* <span className="section" id="skills">
+          <h4>Skills</h4>
+          <div className="skills">
+          {skills.map((skill, index) => {
+            return (
+              <div className="skill">
+                <p>{skill.name}</p>
+                <div>
+                  
+                    let ul = document.createElement("ul")
+                    for(let i = 0; i < skill.level; i++){
+                      let item = document.createElement("li")
+                      ul += item
+                   
+                </div>
+              </div>
+              );
+          })}
+          </div>
+        </span> */}
+
+
       </div>
     </div>
     );
