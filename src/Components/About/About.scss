@@ -20,6 +20,7 @@
       min-height: 100%;
       border: solid rgb(211, 211, 211) 1px;
       padding: 10px;
+      outline: solid rgb(224, 224, 224) 1px;
 
       // SECTION STYLE
       .section{
@@ -63,14 +64,14 @@
             padding-right: 5px;
 
             #date{
-              font-size: 1rem;
+              font-size: 1.1rem;
               font-family: 'Poppins', sans-serif;
               font-style: italic;
+              font-weight: 100;
               margin-top: 10px;
-              color: rgb(190, 195, 206);
-              background: linear-gradient(to bottom right, rgb(255, 83, 53), rgb(116, 235, 189));
-              -webkit-text-fill-color: transparent;
-              -webkit-background-clip: text;
+              text-transform: lowercase;
+              color: rgb(197, 197, 197);
+
             }
             #company{
               font-size: 1.1rem;
@@ -90,11 +91,12 @@
               font-size: 1.1rem;
               font-family: "Poppins", sans-serif;
               font-weight: 900;
+              color: black;
             }
             #description{
               font-size: 0.9rem;
               font-family: 'Montserrat', sans-serif;
-              line-height: 1.8rem;
+              line-height: 1.5rem;
               margin-top: 10px;
             }
 
@@ -163,6 +165,7 @@
               font-size: 0.9rem;
               font-family: "Poppins", sans-serif;
               font-weight: 900;
+              color: black;
             }
             #info{
               font-style: italic;
