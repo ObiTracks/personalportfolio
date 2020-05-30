@@ -24,7 +24,7 @@ function App() {
           <Switch>
             <Route path="/" exact component={Landing_Page} />
             <Route path="/">
-              {/* <NavSister /> */}
+              <NavSister />
             </Route>
           </Switch>
 
@@ -36,7 +36,7 @@ function App() {
             <Route path="/spotify" exact component={Music} />
             <Route path="/" component={Music} />
           </Switch>
-          <Route path="/" exact component={Contact} />
+          <Route path="/contact" exact component={Contact} />
           <Footer />
         </div>
       </div>

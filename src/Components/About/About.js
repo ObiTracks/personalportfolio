@@ -12,7 +12,7 @@ console.log(jobs)
 
 function About(props) {
   return (
-    <div className="Parent">
+    <div className="Parent-about">
       <div className="resume">
 
 
