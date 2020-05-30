@@ -41,21 +41,21 @@
       "degree":"Business Administration and Computer Science",
       "date":"Sept 2019 – April 2023",
       "location":"Waterloo, ON",
-      "gpa": "3.0+"
+      "gpa": "3.0+ GPA"
     },
     {
       "name":"Blyth Academy",
       "degree":"Highschool",
       "date":"Sept 2018 – June 2019",
       "location":"Thornhill, ON",
-      "gpa": "4.0"
+      "gpa": "4.0 GPA"
     },
     {
       "name":"Aurora Highschool",
       "degree":"Highschool",
       "date":"Sept 2018 – June 2019",
       "location":"Aurora, ON",
-      "gpa": "3.86"
+      "gpa": "3.86 GPA"
     }
     
   ],

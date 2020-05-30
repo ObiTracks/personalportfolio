@@ -18,8 +18,9 @@ function About(props) {
   return (
     <div className="Parent-about">
       <NavSister breadcrumb={NavJSON.breadcrumb} />
-      
       <div className="resume">
+
+        {/* SECTION 1 */}
         <span className="section">
           <div className="education">
             <div className="items" id="schools">
@@ -50,6 +51,7 @@ function About(props) {
         </span>
 
 
+        {/* SECTION 2 */}
         <span className="section" id="experience">
           <h4>Experience</h4>
           {jobs.map((job, index) => {
@@ -69,7 +71,7 @@ function About(props) {
           })}
         </span>
 
-
+        {/* SECTION 3 */}
         <span className="section" id="activities">
           <h4>Activities</h4>
           {activities.map((activity, index) => {
