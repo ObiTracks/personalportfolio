@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.scss';
+import NavSister from '../Nav/NavSister/NavSister';
 import ResumeJSON from '../About/resume.json';
 
 const jobs = ResumeJSON.jobs;
@@ -7,15 +8,18 @@ const skills = ResumeJSON.skills;
 const schools = ResumeJSON.education;
 const awards = ResumeJSON.awards;
 const activities = ResumeJSON.activities;
-
 console.log(jobs)
+
+const navJson = '{"breadcrumb":"Hello", "link":"home"}';
+const NavJSON = JSON.parse(navJson);
+// console.log(NavJSON)
 
 function About(props) {
   return (
     <div className="Parent-about">
+      <NavSister breadcrumb={NavJSON.breadcrumb} />
+      
       <div className="resume">
-
-
         <span className="section">
           <div className="education">
             <div className="items" id="schools">
@@ -23,9 +27,9 @@ function About(props) {
               {schools.map((school, index) => {
                 return (
                   <div className="school">
+                    <p id="info">{school.date} | {school.gpa}</p>
                     <p id="head">{school.name}</p>
                     <p>{school.degree}</p>
-                    <p id="info">{school.date} | {school.gpa}</p>
                   </div>
                 )
               })}
