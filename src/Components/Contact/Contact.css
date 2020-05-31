@@ -8,6 +8,8 @@
     justify-content: center;
     align-items: center;
     background: rgb(228, 228, 228);
+    background: url(../../static/img_ferns.jpg);
+    background-size: cover;
     /* background: red; */
   }
 .title_int-faded{
@@ -41,6 +43,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     align-content: center;
     /* background: rgb(255, 255, 255);
     background: rgb(0, 255, 187); */
@@ -61,21 +64,23 @@
     line-height: 1.6rem;
     margin-bottom: 16%;
 }
+.info .email{
+    margin: 1rem 0 0 0;
+    font-size: 0.8rem;
+    color: ;
+}
 .links{
-    width: 100%;
+    width: fit-content;
     display: flex;
-    justify-content: center;
-    align-items: center;
     justify-content: center;
 }
 .links img{
     width: 30px;
     height: auto;
-    margin: 0 3px 0 3px;
     border-radius: 0;
     box-shadow: none;
     stroke-opacity: 0none;
-    margin: 0px .6rem 0 .6rem;
+    margin: 0;
 }
 .sideImg{
     width: 43%;

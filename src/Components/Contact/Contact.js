@@ -8,6 +8,7 @@ import contactme from '../../static/img_contactme.JPG';
 
 function Contact() {
   return (
+    
     <span className="Parent">
       <div className='main'>
         <h4 className='title_int-faded'>contact</h4>
@@ -21,7 +22,9 @@ function Contact() {
           <a target="_blank" href={'https://www.linkedin.com/in/moshe-obi-ihej/'}><img src={linkedin}/></a>
           <a href="mailto:straightup.stack@gmail.com"><img src={email}/></a>
         </span>
+            <p className="email">straightup.stack@gmail.com</p>
         </div>
+        
 
       </div>
 

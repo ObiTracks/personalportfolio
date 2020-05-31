@@ -10,14 +10,13 @@ const awards = ResumeJSON.awards;
 const activities = ResumeJSON.activities;
 console.log(jobs)
 
-const navJson = '{"breadcrumb":"Hello", "link":"home"}';
+const navJson = '{"breadcrumb":"About", "link":"home", "title":"About Me"}';
 const NavJSON = JSON.parse(navJson);
-// console.log(NavJSON)
 
 function About(props) {
   return (
     <div className="Parent-about">
-      <NavSister breadcrumb={NavJSON.breadcrumb} />
+      <NavSister breadcrumb={NavJSON.breadcrumb} link={NavJSON.link} title={NavJSON.title}/>
       <div className="resume">
 
         {/* SECTION 1 */}

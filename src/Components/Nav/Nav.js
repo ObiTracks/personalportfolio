@@ -8,6 +8,7 @@ import reddit from '../../static/icon_reddit.svg';
 import github from '../../static/icon_github.svg';
 import linkedin from '../../static/icon_linkedin.svg';
 import insta from '../../static/icon_instagram.svg';
+import email from '../../static/icon_email.svg';
 
 function Nav () {
     return(
@@ -28,7 +29,10 @@ function Nav () {
                 <a target="_blank" href={'https://www.reddit.com/'}><img src={reddit}/></a>
                 <a target="_blank" href={'https://github.com/ObiTracks/'}><img src={github}/></a>
                 <a target="_blank" href={'https://www.linkedin.com/in/moshe-obi-ihej/'}><img src={linkedin}/></a>
+                
+                <a href="mailto:straightup.stack@gmail.com"><img src={email}/></a>
             </span>
+            <p>straightup.stack@gmail.com</p>
             <p>@ Made by yours truly</p>
         </div>
     )

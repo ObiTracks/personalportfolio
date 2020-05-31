@@ -6,14 +6,15 @@ import Projects_Left from "../Portfolio/projects_leftcol.json";
 import Projects_Right from "../Portfolio/projects_rightcol.json";
 import NavSister from "../../Components/Nav/NavSister/NavSister";
 
-function Portfolio() {
-  let text = '{ "breadcrumb" : "Portfolio", "link":"link"}'
-  let Navigation = JSON.parse(text)
-  console.log(Navigation)
 
+// const text = '{ "breadcrumb" : "Portfolio", "link":"link", "title":"Portfolio Gallery"}}';
+// const NavJSON = JSON.parse('{ "breadcrumb" : "Portfolio", "link":"/", "title":"Portfolio Gallery"}}');
+
+function Portfolio(props) {
   return (
     <div>
-    <NavSister breadcrumb={Navigation.breadcrumb} link={Navigation.link}/>
+      
+      <NavSister breadcrumb={"Portfolio"} link={"/"} title={"Portfolio Gallery"}/>
     <div className="Proj_Parent">
       {/* PROJECTS SECTION */}
       <div className="Proj_Content">
