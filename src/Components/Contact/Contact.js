@@ -15,7 +15,9 @@ function Contact() {
         
         <div className="info">
         <h1>Get in Touch</h1>
-        <p>I love to connect and get to work discussing ideas, projects, or anything in between. Get in touch any time.</p>
+        <p>I love to connect and get to work discussing ideas, projects, or anything in between. Get in touch any time.
+          (these descriptions are works in progress... AKA filler)
+        </p>
         <span className='links'>
           <a target="_blank" href={'https://www.facebook.com/'}><img src={facebook}/></a>
           <a target="_blank" href={'https://www.instagram.com/'}><img src={insta}/></a>
