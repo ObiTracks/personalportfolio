@@ -1,0 +1,129 @@
+.Music {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  max-height: 50rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  padding: 0rem 5rem;
+}
+
+.Half {
+  position: relative;
+  width: 50%;
+  height: 70%;
+  outline-offset: -10px;
+}
+
+.Half .playlist {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, right top, from(#97031c), color-stop(#da072a), to(#fc6767));
+  background: linear-gradient(to right, #97031c, #da072a, #fc6767);
+  padding: 2rem;
+}
+
+.Half .playlist h1 {
+  letter-spacing: 1px;
+  font-size: 200%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.Half .playlist iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 3rem 0rem;
+}
+
+.Half .artists {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-size: cover;
+  background-position: 50% 30%;
+  background: #eeeeee;
+  padding: 15px;
+}
+
+.Half .artists iframe {
+  margin-bottom: 1rem;
+  width: 49%;
+  height: 4.3rem;
+  background: #ffffff;
+  border-radius: 3rem;
+  padding: 7px;
+  margin-right: 10px;
+}
+
+.Half .artists iframe:hover {
+  background: -webkit-gradient(linear, right top, left top, from(#da072a), to(#fc6767));
+  background: linear-gradient(to left, #da072a, #fc6767);
+}
+
+.bold_word {
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  left: 0%;
+  font-size: 8vw;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  text-transform: lowercase;
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+  -webkit-transform: scaleY(0.9);
+          transform: scaleY(0.9);
+}
+
+.Word_Pop p {
+  width: 80%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.6rem;
+  color: white;
+  color: black;
+}
+/*# sourceMappingURL=Spotify.css.map */
